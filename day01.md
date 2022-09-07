@@ -16,8 +16,10 @@ Conditional Design Tuesdays
 
 ## p5.js refresher
 
+20 random points are being connected.
+Reference: Sol LeWitt Wall Drawing #118
+Tool: p5.js
+
 {% raw %}
 <iframe src="content/day01/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
-
-20 points are created and connected. Reference: Sol LeWitt Wall Drawing #118
