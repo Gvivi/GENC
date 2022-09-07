@@ -6,7 +6,9 @@ let zValues = Array();
 let explosionX;
 let explosionY;
 let explosionZ;
-let it = 0;
+let off = 4;
+let affectedDia = 50;
+let v;
 
 function setup(){
     createCanvas(windowWidth, windowHeight, WEBGL);
@@ -17,18 +19,18 @@ function setup(){
     //noLoop();
 
     if(windowHeight<=windowWidth){
-        edge = windowHeight/5;
+        edge = windowHeight/6;
     } else {
-        edge = windowWidth/5;
+        edge = windowWidth/6;
     }
     gap = edge/3;
 
     for(let x = 0;x <= edge;x+=gap){
         for(let y = 0;y <= edge;y+=gap){
             for(let z = 0;z <= edge;z+=gap){
-                xValues.push(x-edge/2);
-                yValues.push(y-edge/2);
-                zValues.push(z-edge/2);
+                xValues.push(x);
+                yValues.push(y);
+                zValues.push(z);
             }
         }
     }
@@ -40,14 +42,28 @@ function setup(){
 function draw(){
     background(10);
     orbitControl();
-    it+=0.1;
+    affectedDia+=1;
 
     for(let i = 0;i < xValues.length;i++){
-        translate((explosionX - xValues[i])*it, (explosionY - yValues[i])*it, (explosionZ - zValues[i])*it);
-        noFill();
-        stroke(200,100,70);
-        strokeWeight(0.5);
-        sphere(10,6,6);
-        translate((xValues[i] - explosionX)*it, (yValues[i] - explosionY)*it, (zValues[i] - explosionZ)*it);
+        if(sqrt(sq(xValues[i]-explosionX)+sq(yValues[i]-explosionY)+sq(zValues[i]-explosionZ))<=affectedDia){
+            v = createVector(xValues[i]-explosionX, yValues[i]-explosionY, zValues[i]-explosionZ);
+            v.normalize();
+            xValues[i]+=(v.x)*off;
+            yValues[i]+=(v.y)*off;
+            zValues[i]+=(v.z)*off;
+            translate(xValues[i]-edge/2, yValues[i]-edge/2, zValues[i]-edge/2);
+            noFill();
+            stroke(200,100,70);
+            strokeWeight(0.5);
+            sphere(10,6,6);
+            translate(-(xValues[i]-edge/2), -(yValues[i]-edge/2), -(zValues[i]-edge/2));
+        } else {
+            translate(xValues[i]-edge/2, yValues[i]-edge/2, zValues[i]-edge/2);
+            noFill();
+            stroke(200,100,70);
+            strokeWeight(0.5);
+            sphere(10,6,6);
+            translate(-(xValues[i]-edge/2), -(yValues[i]-edge/2), -(zValues[i]-edge/2));
+        }
     }
 }
