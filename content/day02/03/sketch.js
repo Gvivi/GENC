@@ -55,14 +55,14 @@ function draw(){
             noFill();
             stroke(200,100,70);
             strokeWeight(0.5);
-            sphere(10,6,6);
+            sphere(gap*0.25,6,6);
             translate(-(xValues[i]-edge/2), -(yValues[i]-edge/2), -(zValues[i]-edge/2));
         } else {
             translate(xValues[i]-edge/2, yValues[i]-edge/2, zValues[i]-edge/2);
             noFill();
             stroke(200,100,70);
             strokeWeight(0.5);
-            sphere(10,6,6);
+            sphere(gap*0.25,6,6);
             translate(-(xValues[i]-edge/2), -(yValues[i]-edge/2), -(zValues[i]-edge/2));
         }
     }

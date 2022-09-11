@@ -17,11 +17,11 @@ function draw(){
         for(let y = gap;y <= windowHeight-gap;y+=gap){
             noStroke();
             fill(20,100,70);
-            circle(x,y,random(5,50));
+            circle(x,y,random(windowHeight/60,windowHeight/16));
             stroke(200,100,70);
             strokeWeight(1);
             noFill();
-            circle(x,y,random(5,50));
+            circle(x,y,random(windowHeight/60,windowHeight/16));
         }
     }
 }

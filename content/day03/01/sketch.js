@@ -19,7 +19,7 @@ function draw(){
     background(10);
     orbitControl();
 
-    for(let h = 0;h < hour();h++){
+    for(let h = 0;h < hour()+1;h++){
         for(let min = 0;min < minute();min++){
             for(let s = 0;s < second();s++){
                 translate(s*gap-30*gap,min*gap-30*gap,-h*gap);
@@ -62,7 +62,7 @@ function draw(){
 
                 strokeWeight(0.5);
 
-                box(3);
+                box(gap*0.3);
 
                 translate(-s*gap+30*gap,-min*gap+30*gap,h*gap);
             }

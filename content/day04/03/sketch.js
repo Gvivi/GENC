@@ -35,9 +35,8 @@ function setup(){
     }
     r2 = r1*random(0.2,1.2);
     r3 = r2*random(0.2,1.2);
-    shapeSize = random(5,30);
+    shapeSize = random(r1*0.1,r1*0.5);
     shape = floor(random(0,3));
-
 }
 
 function draw(){

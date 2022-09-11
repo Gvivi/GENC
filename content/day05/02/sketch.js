@@ -14,7 +14,7 @@ function setup(){
     } else {
         edge = windowWidth/3;
     }
-    gap = edge/4;
+    gap = edge/8;
 }
 
 function draw(){
@@ -28,7 +28,7 @@ function draw(){
                 noFill();
                 stroke(200,100,70);
                 strokeWeight(0.5);
-                sphere(random(gap*0.1, gap*0.7));
+                box(noise(x, y, z)*gap);
                 translate(edge/2-x, edge/2-y, edge/2-z);
             }
         }
