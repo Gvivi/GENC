@@ -14,14 +14,13 @@ function setup() {
     img.resize(windowWidth,windowWidth*(img.height/img.width));
   }
   createCanvas(img.width,img.height);
+  frameRate(30);
   
-  //noLoop();
   rectMode(CORNERS);
   noStroke();
 
   image(img, 0, 0);
 
-  x = random(width);
   y.push(0);
   
   
@@ -41,6 +40,4 @@ function draw() {
   }
   fill(get(mouseX,y[y.length-1]));
   rect(mouseX,y[y.length-1],width,height);
-
-  //save('01.jpg');
 }

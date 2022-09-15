@@ -20,7 +20,6 @@ function setup() {
 
   image(img, 0, 0);
 
-  x = random(width);
   y.push(0);
   
   for(let i=0;i<n-1;i++){
