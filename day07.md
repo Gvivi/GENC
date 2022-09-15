@@ -11,21 +11,21 @@ I did not have one specific artwork in mind as a reference. I think stretching o
 ![Example Image](content/day07/references/kim_asendorf.jpg)
 [Artwork by Kim Asendorf (last opened 15.09.2022)](https://kimasendorf.tumblr.com/post/51826847543)
 
-The starting value on the x axis is given by the mouse position and the y values are chosen randomly. The stripe height extends to the next random value.
+The starting x value and the y values are chosen randomly. The stripe height extends to the next random value.
 
 {% raw %}
 <iframe src="content/day07/01.1/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 [Full screen and interactive](/content/day07/01/embed.html)
 
-The same concept, but the random y values reselected every frame.
+The same concept, but the random y values are reselected every frame.
 
 {% raw %}
 <iframe src="content/day07/02.1/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
 [Full screen and interactive](/content/day07/02/embed.html)
 
-Here the starting x value is randomly chosen. I decided to add noise along the stripes and the starting points.
+I decided to add noise along the stripes and the starting points.
 
 {% raw %}
 <iframe src="content/day07/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
