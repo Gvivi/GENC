@@ -14,16 +14,16 @@ I did not have one specific artwork in mind as a reference. I think stretching o
 The starting value on the x axis is given by the mouse position and the y values are chosen randomly. The stripe height extends to the next random value.
 
 {% raw %}
-<iframe src="content/day07/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
+<iframe src="content/day07/01.1/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
-[Full screen](/content/day07/01/embed.html)
+[Full screen and interactive](/content/day07/01/embed.html)
 
 The same concept, but the random y values reselected every frame.
 
 {% raw %}
-<iframe src="content/day07/02/embed.html" width="100%" height="450" frameborder="no"></iframe>
+<iframe src="content/day07/02.1/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
-[Full screen](/content/day07/02/embed.html)
+[Full screen and interactive](/content/day07/02/embed.html)
 
 Here the starting x value is randomly chosen. I decided to add noise along the stripes and the starting points.
 
