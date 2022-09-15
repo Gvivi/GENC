@@ -16,18 +16,21 @@ The starting value on the x axis is given by the mouse position and the y values
 {% raw %}
 <iframe src="content/day07/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day07/01/embed.html)
 
 The same concept, but the random y values reselected every frame.
 
 {% raw %}
 <iframe src="content/day07/02/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day07/02/embed.html)
 
 Here the starting x value is randomly chosen. I decided to add noise along the stripes and the starting points.
 
 {% raw %}
 <iframe src="content/day07/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day07/03/embed.html)
 
 I remembered some filters that used to be available in some photo editing apps. They achieved a similar look to Kelly Orth's artwork.
 
@@ -39,3 +42,4 @@ I wanted to combine the abstraction of the previous filters and these circles. C
 {% raw %}
 <iframe src="content/day07/04/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day07/04/embed.html)

@@ -9,6 +9,7 @@ Since I enjoyed the grids I wanted to continue an idea that I started there. I w
 {% raw %}
 <iframe src="content/day05/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day05/01/embed.html)
 
 ### Noise Cube
 
@@ -17,3 +18,4 @@ I have never used the noise function before, so this was meant to get a bit fami
 {% raw %}
 <iframe src="content/day05/02/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day05/02/embed.html)

@@ -9,6 +9,7 @@ Inspired by the cubic grids of the previous day, this clock gains one row of sma
 {% raw %}
 <iframe src="content/day03/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day03/01/embed.html)
 
 ### Minimalistic Calendar
 
@@ -17,3 +18,4 @@ The outer circle represents years of the century, the middle circle represents m
 {% raw %}
 <iframe src="content/day03/02/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day03/02/embed.html)

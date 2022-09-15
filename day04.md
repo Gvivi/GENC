@@ -9,6 +9,7 @@ This is a first attempt at creating a random drawing machine. A line starts at a
 {% raw %}
 <iframe src="content/day04/01/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day04/01/embed.html)
 
 ### Cardioid
 
@@ -17,6 +18,7 @@ The following is one approach to construct a cardioid. Another possibility is to
 {% raw %}
 <iframe src="content/day04/02/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day04/02/embed.html)
 
 ### Mandala Machine
 
@@ -25,3 +27,4 @@ Three randomly sized circles are moving around each other while following a circ
 {% raw %}
 <iframe src="content/day04/03/embed.html" width="100%" height="450" frameborder="no"></iframe>
 {% endraw %}
+[Full screen](/content/day04/03/embed.html)

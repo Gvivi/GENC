@@ -12,17 +12,21 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(min(windowHeight,600)*(3024/4032),min(windowHeight,600));
+  if(img.height>windowHeight){
+    img.resize(windowHeight*(img.width/img.height),windowHeight);
+  } else if(img.width>windowWidth){
+    img.resize(windowWidth,windowWidth*(img.height/img.width));
+  }
+  createCanvas(img.width,img.height);
   noLoop();
 
-  img.resize(min(windowHeight,600)*(3024/4032),min(windowHeight,600));
   image(img, 0, 0);
   v = createVector(0,1);
   
-  for(let i=0;i<10000;i++){
+  for(let i=0;i<width*50;i++){
     position.push(createVector(random(0,img.width),random(0,img.height)));
   }
-  strokeWeight(1);
+  strokeWeight((width+height)/1500);
 }
 
 function draw() {
@@ -42,5 +46,5 @@ function draw() {
       }
     }
   }
-  //save('myCanvas.jpg');
+  //save('04.jpg');
 }
