@@ -34,7 +34,7 @@ I decided to add noise along the stripes and the starting points.
 
 I remembered some filters that used to be available in some photo editing apps. They achieved a similar look to Kelly Orth's artwork.
 
-![Example Image](content/day07/references/kim_asendorf.jpg)
+![Example Image](content/day07/references/kelly_orth.jpg)
 [Artwork by Kelly Orth (last opened 15.09.2022)](https://pin.it/4pcsxUH)
 
 I wanted to combine the abstraction of the previous filters and these circles. Circle diameters are randomly chosen and the underlying colors of various points are displayed as a gradiant along the circle.
