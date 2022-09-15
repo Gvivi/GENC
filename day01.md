@@ -6,13 +6,13 @@
 
 John H. Conway & Michael S. Patterson: [Sprouts (last opened 15.09.2022)](https://nrich.maths.org/2413)
 
-![Sprouts](content/day01/sprouts.png)
+![Sprouts](content/day01/results/sprouts.png)
 
 ### Networks
 
 [Networks from Conditional Design Tuesdays (last opened 15.09.2022)](https://conditionaldesign.org/workshops/networks/)
 
-![Networks](content/day01/networks.png)
+![Networks](content/day01/results/networks.png)
 
 ## p5.js refresher
 

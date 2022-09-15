@@ -28,7 +28,7 @@ function setup() {
   image(img, 0, 0);
 
   m = createVector(width/2, height/2);
-  affectedRad = windowHeight/2;
+  affectedRad = windowHeight;
 
   for(let i=0;i<n;i++){
     r.push(random(sqrt(sq(m.x)+sq(m.y))));
@@ -45,21 +45,13 @@ function draw() {
     for(let j=0;j<steps;j++){
       p = createVector(m.x+r[i]*sin(map(j,0,steps,0,360)),m.y+r[i]*cos(map(j,0,steps,0,360)));
 
-      let v = createVector(mouseX,mouseY);
-      v.sub(p);
-      let distToMouse = sqrt(sq(v.x)+sq(v.y));
-      let v1 = v.copy();
+      let v1 = createVector(mouseX,mouseY);
+      v1.sub(p);
+      let distToMouse = sqrt(sq(v1.x)+sq(v1.y));
       v1.normalize();
-      let w = p.copy();
-      w.sub(createVector(mouseX,mouseY));
 
       if(distToMouse<affectedRad){
-        v1.mult(affectedRad/distToMouse);
-        if(sqrt(sq(v1.x)+sq(v1.y))>sqrt(sq(w.x)+sq(w.y))){
-          p.add(v);
-        } else{
-          p.add(v1.mult(affectedRad/distToMouse));
-        }
+        p.add(v1.mult(affectedRad/distToMouse));
       }
       
       let section = floor(j/steps*colorSteps);
