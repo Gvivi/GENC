@@ -6,7 +6,10 @@ In a couple of attempts I tried using face recognition tools. It worked inconsis
 
 ### Filters
 
-I was inspired by the following Pinterest post. In an attempt to replicate it, I came to these tree-like structures. I assume some differences to the reference are created by the randomness of the connected points.
+I was inspired by the following artwork by Espen Kluge. In an attempt to replicate it, I came to these tree-like structures. I assume some differences to the reference are created by the randomness of the connected points.
+
+![Example Image](content/day06/references/espen_kluge.jpg)
+[Artwork by Espen Kluge (last opened 16.09.2022)](https://www.artnome.com/news/2019/7/24/generative-portraiture-of-espen-kluge)
 
 {% raw %}
 <iframe src="content/day06/04/embed.html" width="100%" height="450" frameborder="no"></iframe>
