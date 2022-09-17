@@ -2,7 +2,7 @@
 
 ## Faces
 
-In a couple of attempts I tried using face recognition tools. It worked inconsistently and it was hard to fix the errors since it's someone else's code. I decided that I have already spent too much time on this and therefore would continue.
+In a couple of attempts, I tried using face recognition tools. It worked inconsistently, and it was hard to fix the errors since it was someone else's code. I decided that I have already spent too much time on this and therefore would continue.
 
 ### Filters
 
@@ -23,7 +23,7 @@ I took the idea of lines and color further, which created a scratched effect.
 {% endraw %}
 [Full screen](/content/day06/05/embed.html)
 
-The final filter again chooses random points which display the underlying color as a circle on top. The higher the sum of the rgb color the bigger the circle.
+The final filter again chooses random points which display the underlying color as a circle on top. The higher the sum of the RGB color, the bigger the circle.
 
 {% raw %}
 <iframe src="content/day06/06/embed.html" width="100%" height="450" frameborder="no"></iframe>
