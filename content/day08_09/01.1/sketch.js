@@ -22,6 +22,7 @@ function setup() {
     img.resize(windowWidth,windowWidth*(img.height/img.width));
   }
   createCanvas(img.width,img.height);
+  noLoop();
   
   angleMode(DEGREES);
   noStroke();

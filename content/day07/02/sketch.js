@@ -15,6 +15,7 @@ function setup() {
   }
   createCanvas(img.width,img.height);
   frameRate(30);
+  noLoop();
   
   rectMode(CORNERS);
   noStroke();
