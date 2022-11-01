@@ -6,7 +6,7 @@ let c = Array();
 let b = Array();
 
 function preload() {
-  img = loadImage('assets/adrian.png');
+  img = loadImage('assets/vivi.jpeg');
 }
 
 function setup() {
@@ -38,5 +38,5 @@ function draw() {
     fill(c[i]);
     circle(x,y,map(c[i][0]+c[i][1]+c[i][2],0,765,0,height/40));
   }
-  //save('myCanvas.jpg');
+  //save('06.jpg');
 }

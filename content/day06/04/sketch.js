@@ -8,7 +8,7 @@ let s;
 let c;
 
 function preload() {
-  img = loadImage('assets/adrian.png');
+  img = loadImage('assets/vivi.jpeg');
 }
 
 function setup() {
@@ -38,7 +38,7 @@ function draw() {
       v = position[j].copy();
       v.sub(position[i]);
       
-      if(v.mag()<img.height/40 && position[j].y < position[i].y){
+      if(v.mag()<img.height/50 && position[j].y > position[i].y){
         r = position[j].x;
         s = position[j].y;
         stroke(c);

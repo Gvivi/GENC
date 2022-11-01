@@ -8,7 +8,7 @@ let s;
 let c;
 
 function preload() {
-  img = loadImage('assets/adrian.png');
+  img = loadImage('assets/vivi.jpeg');
 }
 
 function setup() {
@@ -46,5 +46,5 @@ function draw() {
       }
     }
   }
-  //save('myCanvas.jpg');
+  //save('05.jpg');
 }
